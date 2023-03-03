@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0; /*Define o valor 0 como margem para a página*/
+   box-sizing: border-box; /*O espaçamento do padding conta para dentro da caixa*/
+   font-family: Arial, Helvetica, sans-serif; /*Define o tipo de fonte que será utilizada página*/
+}
+header{
+    background-color: rgb(244, 21, 6);  /*Altera a cor de fundo da área do cabeçalho*/
+    color: #0d0d0d; /*Altera a cor do título*/
+    padding: 15px; /*Espaçamento entre o texto e as margens*/
+    text-align: center; /*Alinha o texto no centro da página*/
+    border: #121111 5px solid; /*Adiciona uma borda inferior com 3 pixels de espessura*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+}
+/*Grid de produtos*/
+.container {
+    background-color: #b7b2b2; /*Muda a cor de fundo da seção container*/
+    min-height: 60vh; /*Altura mínima da seção deve ser de 60% da tela*/
+    padding: 50px; /*Espaçamento de 50 pixels nas margens*/
+ 
+    
+ }
+ 
+ .product-container {
+    max-width: 1200px; /*Largura máxima da divisão do card*/
+    margin: 0 auto; /*Margem 0 na altura e centralizar na horizontal*/
+ }
+ 
+ .card {
+    width: 31%; /*Largura do card em 31% do tamanho definido no product-container*/
+    display: inline-block; /*Posiciona os cards em linha*/
+ }
+ 
+ .product-image {
+    height: 300px; /*Altura da imagem*/
+    width: 100%; /*Ocupar 100% do espaço disponível no card*/
+    background-position: center;
+    background-size:cover ;
+ 
+ }
+ #img-1 {
+    background-image: url(../imagens/supra.jpg);
+ }
+ 
+ #img-2 {
+    background-image: url(../imagens/rx7.png);
+ }
+ 
+ #img-3 {
+    background-image: url(../imagens/r35.jfif);
+ }
+ 
+ #img-4 {
+    background-image: url(../imagens/r34.webp);
+ }
+ 
+ #img-5 {
+    background-image: url(../imagens/dodge.jfif);
+ }
+ 
+ #img-6 {
+    background-image: url(../imagens/download.jfif);
+ }
+ 
+ h3{
+    margin-bottom: 10px;
+    color: #060606;
+    font-size: 24px;
+ }
+ 
+ .card p { /*card para modificar o paragrafo */
+    margin-bottom: 10px;
+ 
+ }
+ 
+ .btn {
+    display: block;/*exibir o conteudo no formato de um bloco*/
+    width: 100%;/*ocupar 100% do espaço disponivel no card*/
+    text-align: center;/*alinhar o texto no centro do espaço indicado pelo comando width*/
+    text-transform: uppercase;/*deixa em maisculo*/
+    text-decoration: none;/*Remove o sublinhado do texto*/
+    background-color: #f0e9e7;
+    color: rgb(18, 17, 17);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+ }
+ 
+ .btn:hover {/*Altera o comportamento do botao quando o cursor dom mouse estiver sobre ele*/
+    background-color: rgb(234, 57, 25);
+ }
+ 
+ footer{ background-color: rgb(228, 68, 24);
+    color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+    border-top: #040404 3px solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
