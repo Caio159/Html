@@ -1,0 +1,100 @@
+*{
+   padding: 0; /*Define para o navegador, que o espaçamento a ser utilizado na página é igual a zero*/
+   margin: 0; /*Define o valor 0 como margem para a página*/
+   box-sizing: border-box; /*O espaçamento do padding conta para dentro da caixa*/
+   font-family: Arial, Helvetica, sans-serif; /*Define o tipo de fonte que será utilizada página*/
+}
+header { /*Configura o cabeçalho da página*/
+   background-color: rgb(7, 109, 234);  /*Altera a cor de fundo da área do cabeçalho*/
+   color: #faebd7; /*Altera a cor do título*/
+   padding: 15px; /*Espaçamento entre o texto e as margens*/
+   text-align: center; /*Alinha o texto no centro da página*/
+   border: #0d0d0d 5px solid; /*Adiciona uma borda inferior com 3 pixels de espessura*/
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+/*Grid de produtos*/
+.container {
+   background-color: #d5d5d5; /*Muda a cor de fundo da seção container*/
+   min-height: 60vh; /*Altura mínima da seção deve ser de 60% da tela*/
+   padding: 50px; /*Espaçamento de 50 pixels nas margens*/
+
+   
+}
+
+.product-container {
+   max-width: 1200px; /*Largura máxima da divisão do card*/
+   margin: 0 auto; /*Margem 0 na altura e centralizar na horizontal*/
+}
+
+.card {
+   width: 31%; /*Largura do card em 31% do tamanho definido no product-container*/
+   display: inline-block; /*Posiciona os cards em linha*/
+}
+
+.product-image {
+   height: 300px; /*Altura da imagem*/
+   width: 100%; /*Ocupar 100% do espaço disponível no card*/
+   background-position: center;
+   background-size:cover ;
+
+}
+#img-1 {
+   background-image: url(../imagens/tenis1.jpg);
+}
+
+#img-2 {
+   background-image: url(../imagens/tenis2.jpg);
+}
+
+#img-3 {
+   background-image: url(../imagens/tenis3.jpg);
+}
+
+#img-4 {
+   background-image: url(../imagens/tenis4.jpg);
+}
+
+#img-5 {
+   background-image: url(../imagens/tenis5.jpg);
+}
+
+#img-6 {
+   background-image: url(../imagens/tenis6.jpg);
+}
+
+h3{
+   margin-bottom: 10px;
+   color: #315fdf;
+   font-size: 24px;
+}
+
+.card p { /*card para modificar o paragrafo */
+   margin-bottom: 10px;
+
+}
+
+.btn {
+   display: block;/*exibir o conteudo no formato de um bloco*/
+   width: 100%;/*ocupar 100% do espaço disponivel no card*/
+   text-align: center;/*alinhar o texto no centro do espaço indicado pelo comando width*/
+   text-transform: uppercase;/*deixa em maisculo*/
+   text-decoration: none;/*Remove o sublinhado do texto*/
+   background-color: #186bde;
+   color: aquamarine;
+   padding: 15px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+}
+
+.btn:hover {/*Altera o comportamento do botao quando o cursor dom mouse estiver sobre ele*/
+   background-color: blueviolet;
+}
+
+footer{ background-color: rgb(24, 197, 228);
+   color: #faebd7;
+   padding: 50px;
+   text-align: center;
+   border-top: #040404 3px solid;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
