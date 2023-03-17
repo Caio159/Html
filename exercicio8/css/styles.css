@@ -1,0 +1,132 @@
+*{
+   box-sizing: border-box; 
+}
+
+/*estilo do body*/
+    body{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0;
+
+    }
+
+.anotacao {
+
+background-color: rgb(148, 9, 234);
+padding: 10px;
+text-align: center;
+color: rgb(3, 3, 3);
+
+}
+
+.cabecalho {
+
+padding: 60px;
+text-align: center;
+background-image: url(../imagem/Imagem\ note.png);
+background-size: cover;
+color: aliceblue;
+
+
+}
+
+/*Estilo de barra de navegação*/
+
+.barra_nav{
+
+display: flex;
+background-color: rgb(148, 9, 234);
+
+}
+
+/*Estilo dos links da barra de navegação*/
+
+.barra_nav a{
+
+color: rgb(13, 12, 12);
+padding: 14px 10px;
+text-decoration: none;
+text-align: center;
+}
+
+/*troca a cor de fundo quando o cursor estiver passando por cima*/
+
+.barra_nav a:hover{
+
+background-color: rgb(241, 236, 244);
+color: #333;
+}
+
+/*div da coluna*/
+.coluna{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+/*Criar 2 colunas desiguais (30 e 70% */
+
+.lateral{
+
+flex: 30%;
+background-color: #f1f1f1;
+padding: 20px;
+}
+
+.principal{
+
+flex: 70%;
+background-color: white;
+padding: 20px;
+}
+
+/*Imagens Falsas apenas de marcação do espaçamento*/
+
+.imagem_falsa{
+
+background-color: rgb(160, 19, 248);
+width: 100%;
+padding: 20px;
+height: 200px;
+}
+
+.imagem_falsa2{
+
+    background-color: aqua;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    margin-bottom: 10px;
+    }
+
+    .imagem_falsa3{
+
+        background-color: rgb(19, 195, 248);
+        width: 100%;
+        padding: 20px;
+        height: 200px;
+        }
+
+.rodape {
+
+max-height: fit-content;
+padding: 20px;
+text-align: center;
+background-color: rgb(148, 9, 234);
+}
+
+            
+@media screen and (max-width: 500px) {
+    .coluna, .barra_nav {
+
+        flex-direction: column;
+    
+    }
+
+.cabecalho {
+
+background-image: url(../imagem/Site\ responsivo\ \(1\).png);
+background-color: cover;
+color: white;
+}
+
