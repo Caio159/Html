@@ -15,7 +15,7 @@ font-family: "Inter";
 
 .background-paris{
 
-background: rgba(225, 223, 233, 0.7) url(imagens/imagem_fundo1.jpg);
+background: rgba(225, 223, 233, 0.7) url(../imagens/imagem_fundo.jpg);
 background-blend-mode: darken;
 background-position: center;
 background-size: cover;
