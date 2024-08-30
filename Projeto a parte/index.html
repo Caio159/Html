@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Serviços de Limpeza</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="img/MANAUS.png" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="btn nav-button" href="#"><span>Início</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn nav-button" href="#services"><span>Serviços</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn nav-button" href="#about"><span>Sobre Nós</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn nav-button" href="https://api.whatsapp.com/send?1=pt_BR&phone=5592994908883" target="_blank"><span>Contato</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/img2.png" class="d-block w-100" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="titulos"> <h5>Serviços de Limpeza Profissionais</h5></div>
+                    <div class="text"><p>Sua casa ou empresa sempre limpa e organizada.</p></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/img3 (2).png" class="d-block w-100" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="titulos"> <h5>Qualidade Garantida</h5></div>
+                    <div class="text"><p>Trabalhamos com os melhores produtos e equipamentos.</p></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/img1 (2).png" class="d-block w-100" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="titulos"><h5>Equipe Especializada</h5></div>
+                    <div class="text"><p>Profissionais treinados para garantir a sua satisfação.</p></div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+            
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!-- Serviços -->
+    <section id="services" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-5">Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" data-aos="zoom-in">
+                        <div class="card-body" data-aos="fade-up"
+                        data-aos-duration="3000">
+                            <a class="card-title" href="#detalhamento">Desinsetização</a>
+                            <p class="cardtext">Manutenção e higienização completa da sua casa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" data-aos="zoom-in">
+                        <div class="card-body" data-aos="fade-up"
+                        data-aos-duration="3000">
+                            <a class="card-title" href="#detalhamento">Sanitização</a>
+                            <p class="cardtext">Serviços de limpeza para escritórios e empresas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" data-aos="zoom-in">
+                        <div class="card-body" data-aos="fade-up"
+                        data-aos-duration="3000">
+                            <a class="card-title" href="#detalhamento">Limpeza de Caixa D'Água </a>
+                            <p class="cardtext">Deixe tudo limpo e pronto para uso após a obra.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" data-aos="zoom-in">
+                        <div class="card-body" data-aos="fade-up"
+                        data-aos-duration="3000">
+                            <a class="card-title" href="#detalhamento">Controle de Roedores </a>
+                            <p class="cardtext">Controlamos Roedores e amenisamos a situação na sua residencia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" data-aos="zoom-in">
+                        <div class="card-body" data-aos="fade-up"
+                        data-aos-duration="3000" >
+                            <a class="card-title" href="#detalhamento">Descupinização </a>
+                            <p class="cardtext">Controlamos os cupins e fazemos uma limpeza completa no ambiente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" data-aos="zoom-in">
+                        <div class="card-body" data-aos="fade-up"
+                        data-aos-duration="3000">
+                            <a class="card-title" href="#detalhamento">Limpeza Residêncial </a>
+                            <p class="cardtext">Fazemos uma limpeza, desde das situações mais críticas até as mais basicas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Serviços comerciais -->
+<section id="services" class="py-5 text-center" >
+    <div class="container"  data-aos="zoom-in">
+        <h2 class="mb-5">Serviços Comerciais</h2>
+        <div class="row pt-5 m-auto">
+            <!-- Primeiro card -->
+            <div class="col-md-6 col-lg-4 pb-3">
+                <div class="card card-custom bg-white border-white border-0" data-aos="zoom-in-down">
+                    <div class="card-custom-img" style="background-image: url(http://res.cloudinary.com/d3/image/upload/c_scale,q_auto:good,w_1110/trianglify-v1-cs85g_cc5d2i.jpg);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="img/Dedetização Comercial.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto" data-aos="zoom-in-down">
+                        <h4 class="card-title">Detetização comercial</h4>
+                        <p class="card-text">Oferecemos serviços de dedetização para empresas, eliminando pragas de forma segura e eficiente. Utilizamos métodos avançados para garantir um ambiente de trabalho limpo e saudável, sem riscos à saúde dos funcionários.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo card -->
+            <div class="col-md-6 col-lg-4 pb-3">
+                <div class="card card-custom bg-white border-white border-0" data-aos="zoom-in-down">
+                    <div class="card-custom-img" style="background-image: url(http://res.cloudinary.com/d3/image/upload/c_scale,q_auto:good,w_1110/trianglify-v1-cs85g_cc5d2i.jpg);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="img/Dedetização Empresarial.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto" data-aos="zoom-in-down">
+                        <h4 class="card-title">Dedetização Empresarial </h4>
+                        <p class="card-text">Realizamos dedetização empresarial para garantir um ambiente de trabalho livre de pragas. Nossos serviços utilizam técnicas modernas e seguras para eliminar insetos e roedores, protegendo sua empresa e seus funcionários de possíveis contaminações e danos.<a href="https://getbootstrap.com/docs/4.0/components/card/#card-decks" target="_blank"></a> </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Terceiro card -->
+            <div class="col-md-6 col-lg-4 pb-3">
+                <div class="card card-custom bg-white border-white border-0" data-aos="zoom-in-down">
+                    <div class="card-custom-img" style="background-image: url(http://res.cloudinary.com/d3/image/upload/c_scale,q_auto:good,w_1110/trianglify-v1-cs85g_cc5d2i.jpg);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="img/dedetização com certificado.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto" data-aos="zoom-in-down">
+                        <h4 class="card-title">Dedetização com Certificado </h4>
+                        <p class="card-text">Oferecemos dedetização com certificado, garantindo que todos os processos seguem rigorosamente as normas de segurança e qualidade. Utilizamos produtos regulamentados e técnicas eficazes. <a href="https://getbootstrap.com/docs/4.0/components/card/#card-decks" target="_blank"></a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  
+
+
+
+
+    <!-- Detalhamento -->
+    <section id="detalhamento" class="py-5 bg-light" data-aos="fade-up"
+    data-aos-duration="3000">
+        <div class="container">
+            <h2 class="text-center mb-5">Detalhamento dos Serviços</h2>
+            <div class="row detalhamentoServicos">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm" data-aos="fade-up"
+                    data-aos-duration="3000"> <!--ANIMAÇÂO-->
+                        <div class="card-body " data-aos="zoom-out-up">
+                            <h5 class="card-title">Desinsetização</h5>
+                            <p class="card-text">A desinsetização é o processo de controle e eliminação de insetos, utilizando produtos e técnicas adequadas para garantir a segurança e a eficácia no combate às pragas. Realizamos inspeções, aplicação de inseticidas .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="card-body" data-aos="zoom-out-up">
+                            <h5 class="card-title">Sanitização</h5>
+                            <p class="card-text">A sanitização visa a eliminação de microorganismos em superfícies e ambientes. Utilizamos produtos desinfetantes e técnicas específicas para garantir um ambiente limpo e seguro, reduzindo o risco de doenças.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="card-body" data-aos="zoom-out-up">
+                            <h5 class="card-title">Limpeza de Caixa D'Água</h5>
+                            <p class="card-text">A limpeza de caixas d'água é essencial para garantir a qualidade da água. Inclui a desinfecção da caixa, remoção de sedimentos e inspeção das condições gerais. Realizamos o serviço com atenção aos detalhes e segurança.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="card-body" data-aos="zoom-out-up">
+                            <h5 class="card-title">Controle de Roedores</h5>
+                            <p class="card-text">O controle de roedores envolve a identificação dos pontos de acesso, instalação de armadilhas e uso de iscas específicas. Nosso objetivo é eliminar roedores de forma eficaz e prevenir a reocorrência.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="card-body" data-aos="zoom-out-up">
+                            <h5 class="card-title">Descupinização</h5>
+                            <p class="card-text">A descupinização é realizada para eliminar cupins e proteger estruturas de madeira. Inclui a aplicação de produtos específicos e a realização de tratamentos preventivos para garantir a durabilidade das construções.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm" data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <div class="card-body" data-aos="zoom-out-up">
+                            <h5 class="card-title">Limpeza Residencial</h5>
+                            <p class="card-text">Oferecemos serviços completos de limpeza residencial, incluindo a remoção de sujeira, poeira e resíduos. Nossa equipe realiza uma limpeza profunda em todos os cômodos, garantindo um ambiente limpo e saudável.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Featurette Divider -->
+                <hr class="featurette-divider">
+
+                
+            
+                <!-- Featurette Section -->
+                <div class="row featurette">
+                    <div class="col-md-7" data-aos="fade-down-right">
+                        <h2 class="featurette-heading">Equipamentos e produtos utilizados: <br> <br> <br> Fumigantes</h2>
+                        <p class="lead"> Produtos químicos em forma de gás usados para eliminar pragas em espaços fechados, eficazes contra insetos e roedores, com aplicação que exige cuidados devido à sua toxicidade.</p>
+                    </div>
+                    <div class="col-md-5" data-aos="fade-up">
+                        <img src="img/fumigação.png" class="img-fluid mx-auto" alt="Generic placeholder image">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <!-- Featurette Divider -->
+                    <hr class="featurette-divider">
+                
+                    <!-- Featurette Section -->
+                    <div class="row featurette">
+
+                        <div class="col-md-5" data-aos="fade-up">
+                            <img src="img/pulverizadores.png" class="img-fluid mx-auto" alt="Generic placeholder image">
+                        </div>
+                        <div class="col-md-7" data-aos="fade-up-left">
+                            <h2 class="featurette-heading"> <br> <br> <br> Pulverizadores</h2>
+                            <p class="lead">Ferramentas utilizadas para aplicar inseticidas de forma controlada e direcionada. Podem ser manuais ou motorizados, e são frequentemente usados para tratar áreas específicas ou focos de infestação, como jardins, frestas, rodapés, e outros locais onde as pragas se concentram.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Featurette Divider -->
+                <hr class="featurette-divider">
+
+              
+    
+                    
+                
+                    <!-- Featurette Section -->
+                    <div class="row featurette">
+                        <div class="col-md-7" data-aos="fade-down-right">
+                            <h2 class="featurette-heading"> <br> <br> <br> Atomizadores e Nebulizadores</h2>
+                            <p class="lead">São equipamentos usados para transformar inseticidas líquidos em uma névoa fina, permitindo que o produto se espalhe uniformemente em grandes áreas. São ideais para alcançar locais de difícil acesso e garantir uma cobertura mais ampla, como tetos, cantos altos e áreas externas.</p>
+                        </div>
+                        <div class="col-md-5" data-aos="fade-up">
+                            <img src="img/limpeza500.png" class="img-fluid mx-auto" alt="Generic placeholder image">
+                        </div>
+                    </div>
+
+                    <style>
+                        
+                    </style>
+    
+            
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="team" class="pb-5" data-aos="fade-up">
+        <div class="container" data-aos="fade-up">
+            <h5 class="section-title h1">AVALIAÇÕES</h5>
+            <div class="row">
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" >
+                        <div class="mainflip flip-0">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="img/pessoa1.png" alt="card image"></p>
+                                        <h4 class="card-title">Julia Kaori</h4>
+                                        <p class="card-text"></p>
+                                        <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Dedetização Residencial</h4>
+                                        <p class="card-text">"Serviço de dedetização impecável, com análise detalhada e soluções personalizadas. A infestação foi completamente eliminada, e a comunicação foi excelente."</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="img/pessoa2.png" alt="card image"></p>
+                                        <h4 class="card-title">Marina Guerreira</h4>
+                                        <p class="card-text"></p>
+                                        <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Controle de Pragas em Empresas</h4>
+                                        <p class="card-text">"Controle de pragas eficiente e discreto, com mínima interrupção das operações. Equipe técnica qualificada e relatórios claros. Excelente serviço!"</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="img/pessoa3.png" alt="card image"></p>
+                                        <h4 class="card-title">Flavio Machado</h4>
+                                        <p class="card-text"></p>
+                                        <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Tratamento de Infestação de Cupins</h4>
+                                        <p class="card-text">"Tratamento de cupins eficaz, com métodos avançados que preservaram a estrutura da casa, Inspeção completa!"</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="img/pessoa4.png" alt="card image"></p>
+                                        <h4 class="card-title">Barreto</h4>
+                                        <p class="card-text"></p>
+                                        <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Limpeza Pós-Dedetização</h4>
+                                        <p class="card-text">"Limpeza excepcional após dedetização, com ambiente seguro e livre de resíduos. Equipe cuidadosa e atenciosa."</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="img/pessoa5.png" alt="card image"></p>
+                                        <h4 class="card-title">Flavia Bezerra</h4>
+                                        <p class="card-text"></p>
+                                        <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Desinsetização</h4>
+                                        <p class="card-text">"Desinsetização de alta qualidade com eliminação completa dos insetos. Processos claros e seguros, e serviço pontual e eficaz."</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="img/pessoa6.png" alt="card image"></p>
+                                        <h4 class="card-title">Sarah Santos</h4>
+                                        <p class="card-text"></p>
+                                        <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Controle de Roedores</h4>
+                                        <p class="card-text">"Controle de roedores eficaz e rápido, com métodos seguros e acompanhamento pós-serviço para garantir a ausência de problemas futuros. Altamente recomendado."</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+    
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    
+     <!-- Sobre Nós -->
+     <section id="about" class="py-5 bg-light text-center" >
+        <div class="container" data-aos="fade-up">
+            <h2 class="mb-5">Sobre Nós</h2>
+            <p>A Manaus Controle de Pragas é uma Dedetizadora que fornece serviços de dedetização e Sanitização mais indicada dos últimos anos em Manaus. Atuando com os serviços de Sanitização, Controle de Pragas, Limpeza de Caixas D'água para Empresas e Residencias desde 2008. Além do mercado de Manaus, atendemos as cidades adjacentes: Iranduba, Manacapuru, Novo Airão, Rio Preto da Eva, Presidente Figueiredo, Rio Preto da Eva entre outra mais... Trabalhamos como Serviços esporádico e atendemos Empresas, Casas e Apartamentos.</p>
+        </div>
+    </section>
+        <div class="detalhamentoServicos">
+          
+        </div>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center" >
+        <div class="foot" >
+            <p class="m-0">© 2024 Limpeza Perfeita. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<style>
+
+
+
+
+/* Estilos para os botões de navegação */
+/* Estilos para os botões de navegação */
+.nav-button {
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Padding para botões maiores */
+    margin-right: 10px; /* Espaço entre os botões */
+    font-size: 16px; /* Tamanho da fonte */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    color: #000000; /* Cor do texto padrão */
+    background-color: #ffffff; /* Cor de fundo dos botões */
+    border: 1px solid #007bff; /* Borda com a mesma cor dos botões */
+    position: relative; /* Necessário para o efeito pseudo-elemento */
+    overflow: hidden; /* Garante que o pseudo-elemento não ultrapasse o botão */
+    transition: color 0.3s ease; /* Transição suave para a cor do texto */
+}
+
+.nav-button::before {
+    content: ''; /* Adiciona um conteúdo vazio */
+    position: absolute; /* Posição absoluta para o pseudo-elemento */
+    bottom: 0; /* Alinha ao fundo */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    background-color: #092b50; /* Cor de fundo do efeito */
+    transform: translateY(100%); /* Inicia com o efeito fora da vista */
+    transition: transform 0.3s ease; /* Transição suave para o efeito */
+    z-index: 0; /* Fica atrás do texto */
+}
+
+.nav-button:hover::before {
+    transform: translateY(0); /* Move o efeito para dentro do botão no hover */
+}
+
+.nav-button:hover {
+    color: #ffffff; /* Cor do texto no hover */
+}
+
+.nav-button span {
+    position: relative; /* Para o texto estar sobre o pseudo-elemento */
+    z-index: 1; /* Garante que o texto fique sobre o efeito */
+}
+
+
+
+
+#services .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves para transformação e sombra */
+}
+
+/* Efeito de hover nas caixas de serviço */
+#services .card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho da caixa em 5% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra para dar a impressão de elevação */
+}
+
+
+#services .card-title {
+    font-size: 1.25rem; /* Ajusta o tamanho da fonte para se assemelhar ao h5 */
+    color: #000000; /* Cor do texto preta */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+#services .card-title:hover {
+    text-decoration: none; /* Remove o sublinhado ao passar o mouse */
+    color: #000000; /* Mantém a cor preta no hover */
+}
+
+/* Estilo para os títulos h5 */
+#services h5 {
+    font-size: 1.25rem; /* Define o tamanho da fonte para os títulos h5 */
+    color: #000000; /* Cor do texto preta */
+}
+
+
+
+
+
+    nav img{
+        margin-left: 200px;
+    }
+
+    .carousel-caption {
+        background-color: rgb(0, 0, 0, 0.5);
+        padding: 20px;
+    }
+
+ul {
+    margin-right: 200px;
+}
+
+li a {
+    color: rgb(7, 7, 7);
+    margin-right: 20px;
+    text-decoration: none; 
+
+}
+
+li a:hover {
+    color: rgb(0, 163, 228); 
+    text-decoration: none; 
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+}
+
+.titulos h5{
+    color: white;
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+}
+
+.text p {
+    color: rgb(255, 255, 255);
+}
+
+.enviar button:hover{
+    color:rgb(0, 0, 0) ;
+}
+
+
+
+#detalhamento {
+    background: linear-gradient(to right, #000000, #00aaff); /* Gradiente de preto para azul claro */
+    color: #ffffff; /* Cor do texto na seção */
+}
+
+/* Estilo para as caixas de serviço */
+#detalhamento .card {
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Transições suaves para transformação e cor de fundo */
+    background-color: #0c364e; /* Cor de fundo padrão das caixas de serviço */
+}
+
+/* Efeito de hover nas caixas de serviço */
+#detalhamento .card:hover {
+    transform: translateY(-5px); /* Move a caixa um pouco para cima */
+    background-color: #080808; /* Cor de fundo alterada ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra mais pronunciada para dar a impressão de elevação */
+}
+
+
+
+
+#about {
+    background-image: url('img/Design\ sem\ nome\ \(5\).png'); /* Substitua 'background-image.jpg' pelo caminho da imagem que deseja usar */
+    background-size: cover; /* Faz com que a imagem cubra toda a seção */
+    background-attachment: fixed; /* Efeito de parallax */
+    background-position: center; /* Centraliza a imagem de fundo */
+    color: white; /* Cor do texto branca */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra do texto para melhorar a legibilidade */
+    padding: 80px 0; /* Espaçamento interno maior para destacar o conteúdo */
+    position: relative; /* Necessário para o efeito de fundo */
+    z-index: 1;
+}
+
+/* Adiciona um overlay escuro para melhorar a legibilidade do texto */
+#about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto semi-transparente */
+    z-index: -1; /* Garante que o overlay fique atrás do texto */
+}
+
+/* Estilo para o título "Sobre Nós" */
+#about h2 {
+    font-size: 2.5rem; /* Tamanho maior para o título */
+    margin-bottom: 30px;
+}
+
+/* Estilo para o parágrafo */
+#about p {
+    font-size: 1.25rem; /* Tamanho da fonte para o texto */
+    line-height: 1.8; /* Espaçamento entre linhas */
+    margin: 0 auto; /* Centraliza o parágrafo */
+    max-width: 900px; /* Limita a largura do texto */
+}
+
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
+</style>
+
+
+<script>
+    AOS.init();
+  </script>
